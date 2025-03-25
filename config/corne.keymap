@@ -10,27 +10,27 @@
 
 / {
     behaviors {
-        new_behavior: new_behavior {
+        sticky: sticky {
             compatible = "zmk,behavior-sticky-key";
-            label = "NEW_BEHAVIOR";
+            label = "STICKY";
             bindings = <&none>;
             #binding-cells = <1>;
             quick-release;
             release-after-ms = <250>;
         };
 
-        new_behavior: new_behavior {
+        comma_bang: comma_bang {
             compatible = "zmk,behavior-mod-morph";
-            label = "NEW_BEHAVIOR";
+            label = "COMMA_BANG";
             bindings = <&kp COMMA>, <&kp EXCL>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
         };
 
-        new_behavior: new_behavior {
+        period_question: period_question {
             compatible = "zmk,behavior-mod-morph";
-            label = "NEW_BEHAVIOR";
+            label = "PERIOD_QUESTION";
             bindings = <&kp PERIOD>, <&kp QUESTION>;
 
             #binding-cells = <0>;
