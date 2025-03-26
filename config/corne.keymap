@@ -36,7 +36,11 @@
             mods = <(MOD_LSFT)>;
         };
     };
-
+    
+    &sk {
+        quick-release;
+    };
+ 
     keymap {
         compatible = "zmk,keymap";
 
