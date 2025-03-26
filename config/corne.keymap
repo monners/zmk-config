@@ -82,7 +82,7 @@
             bindings = <
 &kp LG(TAB)  &kp LG(Q)  &kp LG(W)  &kp LG(F)  &kp LG(P)  &kp PRCNT    &kp AMPERSAND  &kp LEFT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RPAR          &kp DELETE
 &trans       &kp LG(A)  &kp LG(R)  &kp LG(S)  &kp LG(T)  &kp SLASH    &kp DOLLAR     &kp LESS_THAN     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp DOUBLE_QUOTES
-&trans       &trans     &kp LG(X)  &kp LG(C)  &kp LG(D)  &kp LG(V)    &kp PLUS       &kp EQUAL         &kp EXCL              &kp QUESTION           &kp PIPE          &kp TILDE
+&trans       &trans     &kp LG(X)  &kp LG(C)  &kp LG(D)  &kp LG(V)    &kp PLUS       &kp EQUAL         &kp EXCL              &kp QUESTION           &kp PIPE          &kp LG(ENTER)
                                    &trans     &trans     &trans       &trans         &trans            &trans
             >;
 
