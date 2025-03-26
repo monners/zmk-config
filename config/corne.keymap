@@ -63,9 +63,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp N1            &kp N2        &kp N3        &kp N4             &kp N5    &kp N6         &kp LG(LEFT)       &kp UP_ARROW           &kp LG(RIGHT)  &kp LG(LA(N0))  &kp LA(BSPC)
-&trans     &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LC(LA(LS(V)))  &trans    &kp LG(Z)      &kp DOWN           &kp DOWN               &kp RIGHT      &kp LG(SEMI)    &kp GRAVE
-&kp LSHFT  &trans            &trans        &kp LC(C)     &trans             &trans    &trans         &kp LC(LA(LG(N)))  &kp LG(SPACE)          &kp LC(LA(H))  &kp SLASH       &kp ESCAPE
+&kp TAB    &kp N1            &kp N2        &kp N3        &kp N4             &kp N5    &kp N6         &kp LG(LEFT)       &kp UP_ARROW           &kp LG(RIGHT)      &kp LG(LA(N0))  &kp LA(BSPC)
+&trans     &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LC(LA(LS(V)))  &trans    &kp LG(Z)      &kp DOWN           &kp DOWN               &kp RIGHT          &kp LG(SEMI)    &kp GRAVE
+&kp LSHFT  &trans            &trans        &kp LC(C)     &trans             &trans    &kp LC(LA(B))  &kp LC(LA(LG(N)))  &kp LG(SPACE)          &kp LC(LA(LG(H)))  &kp SLASH       &kp ESCAPE
                                            &trans        &trans             &trans    &kp LC(SPACE)  &kp LC(SLASH)      &kp RC(LS(BACKSLASH))
             >;
 
@@ -80,10 +80,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                             &kp LGUI  &trans    &kp SPACE    &kp RET    &trans     &kp RALT
+&kp LG(TAB)  &kp LG(Q)  &kp LG(W)  &kp LG(F)  &kp LG(P)  &kp PRCNT    &kp AMPERSAND  &kp LEFT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RPAR          &kp DELETE
+&trans       &kp LG(A)  &kp LG(R)  &kp LG(S)  &kp LG(T)  &kp SLASH    &kp DOLLAR     &kp LESS_THAN     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp DOUBLE_QUOTES
+&trans       &trans     &kp LG(X)  &kp LG(C)  &kp LG(D)  &kp LG(V)    &kp PLUS       &kp EQUAL         &kp EXCL              &kp QUESTION           &kp PIPE          &kp TILDE
+                                   &trans     &trans     &trans       &trans         &trans            &trans
             >;
 
             label = "Symbols";
