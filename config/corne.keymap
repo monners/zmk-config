@@ -91,10 +91,10 @@
 
         Numbers {
             bindings = <
-&trans     &kp AMPERSAND  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERCENT      &trans  &trans  &trans  &trans  &trans  &trans
-&kp TILDE  &kp NUMBER_0   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH        &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp BACKSLASH    &trans  &trans  &trans  &trans  &trans  &trans
-                                        &trans        &trans        &trans           &trans  &trans  &trans
+&trans     &kp AMPERSAND  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERCENT      &kp AMPERSAND  &kp ASTERISK  &kp CARET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&kp TILDE  &kp NUMBER_0   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH        &kp DOLLAR     &kp AT_SIGN   &kp HASH   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
+&trans     &trans         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp BACKSLASH    &kp PLUS       &kp EQUAL     &kp COMMA  &kp PERIOD            &kp MINUS              &trans
+                                        &trans        &trans        &trans           &trans         &trans        &trans
             >;
 
             label = "Numbers";
