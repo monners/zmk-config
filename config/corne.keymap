@@ -47,7 +47,7 @@
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp F     &kp P  &kp B             &kp J      &kp L  &kp U          &kp Y             &kp SEMICOLON  &kp BSPC
 &mo 1      &kp A  &kp R  &kp S     &kp T  &kp G             &kp M      &kp N  &kp E          &kp I             &kp O          &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C     &kp D  &kp V             &kp K      &kp H  &comma_bang    &period_question  &kp MINUS      &kp ENTER
+&sl 4      &kp Z  &kp X  &kp C     &kp D  &kp V             &kp K      &kp H  &comma_bang    &period_question  &kp MINUS      &kp ENTER
                          &kp LGUI  &sl 2  &sk LEFT_SHIFT    &kp SPACE  &sl 3  &kp RIGHT_GUI
             >;
         };
@@ -95,6 +95,17 @@
             >;
 
             label = "Numbers";
+        };
+
+        Meta {
+            bindings = <
+&trans  &trans  &trans  &trans             &trans        &trans        &kp LS(LA(LC(J)))  &kp LS(LA(LC(L)))  &kp LS(LC(LA(U)))  &kp LS(LA(LC(Y)))  &kp LA(LG(I))      &kp DELETE
+&trans  &trans  &trans  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &kp K_MUTE    &kp LS(LA(LC(M)))  &kp LC(LA(LG(P)))  &kp LS(LA(LC(E)))  &kp LA(LC(LG(F)))  &kp LS(LA(LC(O)))  &kp LG(GRAVE)
+&trans  &trans  &trans  &trans             &trans        &trans        &kp LG(EQUAL)      &kp LG(MINUS)      &kp LS(LA(LC(K)))  &kp F11            &kp F12            &kp F13
+                        &trans             &trans        &trans        &trans             &trans             &trans
+            >;
+
+            label = "Meta";
         };
     };
 };
