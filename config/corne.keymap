@@ -6,6 +6,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
 
 &sk {
     release-after-ms = <200>;
@@ -99,9 +100,9 @@
 
         Meta {
             bindings = <
-&trans  &trans  &trans  &trans             &trans        &trans        &kp LS(LA(LC(J)))  &kp LS(LA(LC(L)))  &kp LS(LC(LA(U)))  &kp LS(LA(LC(Y)))  &kp LA(LG(I))      &kp DELETE
+&bt BT_CLR_ALL  &trans  &trans  &trans             &trans        &trans        &kp LS(LA(LC(J)))  &kp LS(LA(LC(L)))  &kp LS(LC(LA(U)))  &kp LS(LA(LC(Y)))  &kp LA(LG(I))      &kp DELETE
 &trans  &trans  &trans  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &kp K_MUTE    &kp LS(LA(LC(M)))  &kp LC(LA(LG(P)))  &kp LS(LA(LC(E)))  &kp LA(LC(LG(F)))  &kp LS(LA(LC(O)))  &kp LG(GRAVE)
-&trans  &trans  &trans  &trans             &trans        &trans        &kp LG(EQUAL)      &kp LG(MINUS)      &kp LS(LA(LC(K)))  &kp F11            &kp F12            &kp F13
+&trans  &bt BT_SEL(0)  &bt BT_SEL(1)  &bt BT_SEL(2)         &trans        &trans        &kp LG(EQUAL)      &kp LG(MINUS)      &kp LS(LA(LC(K)))  &kp F11            &kp F12            &kp F13
                         &trans             &trans        &trans        &trans             &trans             &trans
             >;
 
